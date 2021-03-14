@@ -1,0 +1,104 @@
+# Spring Boot Examples
+
+Spring Boot 使用的各种示例，以最简单、最实用为标准
+
+[Spring Boot 中文索引](http://u.720life.cn/g/54145d0471d91890860f7f8463c0304694c9ec7b2c54c15608152cc1c97e8334b59eea78f2c6c7309b0aeb0cc46708b2) &nbsp;| &nbsp; [Spring Cloud学习示例代码](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d9259edcdc849b1b1a97fab0f3013d56e65ac97b9603e5b5dfd7120737cb110bf) &nbsp;| &nbsp; [Spring Boot 达人课](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d556ba86490365da4837afe7c76c7be32) 
+
+[English](README_EN.md) &nbsp;| &nbsp;  [Github地址](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d5303d3cd5d25c94a289fd926f818478aa9103961fd90910e2fe4fb96ef14f7d7) &nbsp;| &nbsp; [码云地址](http://u.720life.cn/g/2e71d0f0a5c601172267ba20d3a43c6e551b4ecd2717dfce342d831c2c7ddfb6bcdd80cbba841f6813f7c74ba7965a90) &nbsp;| &nbsp;  [Spring Boot 1.0](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d5303d3cd5d25c94a289fd926f818478a62da47d80ac9661562ed0fe8e0da604fbd38875473f64c20653685a7972182bd)
+
+---
+
+## Spring Boot 2.0
+
+
+**示例代码**
+
+- [spring-boot-hello](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d5303d3cd5d25c94a289fd926f818478ae55a06ccbeee60413e5a352e6aff4c9f66e1b173f6b93eb3227bc35bac571d36)：Spring Boot 2.0  Hello World 示例
+- [spring-boot-banner](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d5303d3cd5d25c94a289fd926f818478ae55a06ccbeee60413e5a352e6aff4c9f51f9fa0a7a203e3298f4a8ddcfccf69b)：Spring Boot 定制 Banner 示例
+- [spring-boot-docker](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d5303d3cd5d25c94a289fd926f818478ae55a06ccbeee60413e5a352e6aff4c9f51f9fa0a7a203e3298f4a8ddcfccf69b)：使用 Docker 部署 Spring Boot 示例
+- [dockercompose-springboot-mysql-nginx](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d5303d3cd5d25c94a289fd926f818478a808d953ecac24a3068ee4b67b79b63b3d8643e03ad0891988fe8d02a98efd44fe9d81d53a0140dca7848aa6bf9024f66274ed84618727a4ece3bf9a454663676) ：Docker Compose + Spring Boot + Nginx + Mysql 示例  
+- [spring-boot-commandLineRunner](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d5303d3cd5d25c94a289fd926f818478ae55a06ccbeee60413e5a352e6aff4c9f3887f018349014675b2453c073139a06a1878b6a658e3eb60bb2194b3ed0fb18) ：Spring Boot 使用 commandLineRunner 实现项目启动时资源初始化示例   
+
+
+**参考文章**
+
+- [Spring Boot 2.0(一)：【重磅】Spring Boot 2.0权威发布](http://u.720life.cn/g/a7aa90cf5fe79726b10a2a75b3167657f2304999099dd45dd1e45e85fbd4fe2e61e48deee70ae0346e530a86c723a50f214c117318805af369278fa97c31d208a849c839e4be6790bbd685b4ab9f6a21)  
+- [Spring Boot 2.0(二)：Spring Boot 2.0尝鲜-动态 Banner](http://u.720life.cn/g/a7aa90cf5fe79726b10a2a75b3167657f2304999099dd45dd1e45e85fbd4fe2e6a894bf52d506f022c769eb4c4e95f5401bb38428638b9e4d93ae801494c7488c75861c1a2fca8ddb5c6544cf86600b1)  
+- [Spring Boot 2.0(三)：Spring Boot 开源软件都有哪些？](http://u.720life.cn/g/a7aa90cf5fe79726b10a2a75b3167657f2304999099dd45dd1e45e85fbd4fe2e82b730b30621c0acdeedbbce95941257c356fd214c508f7058527e452b6b6c39cd5e7e26559112ee47026c598d58ec3b)  
+- [Spring Boot 2.0(四)：使用 Docker 部署 Spring Boot](http://u.720life.cn/g/a7aa90cf5fe79726b10a2a75b3167657f2304999099dd45dd1e45e85fbd4fe2ee9120c05e77b73c29acba6c114f19b95052578d93d24d6e7e1cf4e68a9a38052fcb80bafa0b8ac7f21d0c29c8e0f6ff1)  
+- [Spring Boot 2.0(五)：Docker Compose + Spring Boot + Nginx + Mysql 实践](http://u.720life.cn/g/a7aa90cf5fe79726b10a2a75b3167657f2304999099dd45dd1e45e85fbd4fe2e2358c7a5df1ceb0c91f7a9ef9eb4ccef2a11fbb2ede912b8023a151d7530ae9e543c196ecb465ab792d3079e0485958c859728ce4f2a7cacb85ccf96e2ab8872)  
+
+---
+
+## Spring Boot 1.0
+
+**示例代码**
+
+- [spring-boot-helloWorld](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d5303d3cd5d25c94a289fd926f818478ae55a06ccbeee60413e5a352e6aff4c9f6c5080356d05d6c3352dcf234c034443fd978410b78fee31ed4f1bfa72efd197)：spring-boot的helloWorld版本
+- [spring-boot-mybaits-annotation](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d5303d3cd5d25c94a289fd926f818478ae55a06ccbeee60413e5a352e6aff4c9ffa2d503371cd6755494c229ec0ee615d3302b6f6f4d937cf0f7487e8df004812)：注解版本
+- [spring-boot-mybaits-xml](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d5303d3cd5d25c94a289fd926f818478ae55a06ccbeee60413e5a352e6aff4c9ffa2d503371cd6755494c229ec0ee615d08b0adc141faf9780062073cd5d2e8d4)：xml配置版本
+- [spring-boot-mybatis-mulidatasource](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d5303d3cd5d25c94a289fd926f818478ae55a06ccbeee60413e5a352e6aff4c9ffa2d503371cd6755494c229ec0ee615d259f0249ab70996fa6aeab5509b91142)：springboot+mybatis多数据源最简解决方案
+- [spring-boot-mybatis-annotation-mulidatasource](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d5303d3cd5d25c94a289fd926f818478ae55a06ccbeee60413e5a352e6aff4c9ffa2d503371cd6755494c229ec0ee615d8afeddf70b40f0446bdf8a85ad8b16f9874eb26dcac5fd56795b0c089383c14b)：springboot+mybatis（注解版）多数据源最简解决方案
+- [spring-boot-thymeleaf](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d5303d3cd5d25c94a289fd926f818478ae55a06ccbeee60413e5a352e6aff4c9fb676097358664ce8d1be6fc4c4f0dd863a846d94654ef00cca30b433858bf9f0)：simple spring boot thymeleaf demo
+- [spring-boot-jpa-thymeleaf-curd](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d5303d3cd5d25c94a289fd926f818478ae55a06ccbeee60413e5a352e6aff4c9fdc7a5d9894101b4babaecb04bd57210274339e577b12263ce034db6c5a417731)：spring boot + jpa + thymeleaf 增删改查示例
+- [spring-boot-rabbitmq](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d5303d3cd5d25c94a289fd926f818478ae55a06ccbeee60413e5a352e6aff4c9f3358ed2123e4d34f919575cab3ba02ef1bf8805831be8956d4988b3f90182d7c)：spring boot和rabbitmq各种消息应用案例
+- [spring-boot-scheduler](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d5303d3cd5d25c94a289fd926f818478ae55a06ccbeee60413e5a352e6aff4c9f33e64a924e105587d25fbfb87085e8dd1c718a109aad95576e6956266fca5e70)：spring boot和定时任务案例
+- [spring-boot-web](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d5303d3cd5d25c94a289fd926f818478ae55a06ccbeee60413e5a352e6aff4c9f91e15a6f4e992e9b4b77ade7df0fab88)：web开发综合使用案例
+- [spring-boot-mail](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d5303d3cd5d25c94a289fd926f818478ae55a06ccbeee60413e5a352e6aff4c9f13adc23ceaf04a1b56f3b5e0e8036a10)：spring boot和邮件服务
+- [spring-boot-mongodb](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d5303d3cd5d25c94a289fd926f818478ae55a06ccbeee60413e5a352e6aff4c9f279321d3662c75dd6a5ce61e2d4992c33f46bcf2fe52c2a1c0a0dad3247c7241)：spring boot和mongodb的使用
+- [spring-boot-multi-mongodb](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d5303d3cd5d25c94a289fd926f818478ae55a06ccbeee60413e5a352e6aff4c9fda9bfba3c52154f47890255b7d22cc20bcd66478027c618dc124daf71aa76f4f)：spring boot和mongodb多数据源的使用
+- [spring-boot-package-war](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d5303d3cd5d25c94a289fd926f818478ae55a06ccbeee60413e5a352e6aff4c9f53d848835b492bbdbacc0e19711025fad9d76fa4440b26f6db003ffe1613987b)：spring-boot打包成war包示例
+- [spring-boot-shiro](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d5303d3cd5d25c94a289fd926f818478ae55a06ccbeee60413e5a352e6aff4c9fc1bceb6f30e00e8770110378ce692295)：springboot 整合shiro rbac示例
+- [spring-boot-file-upload](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d5303d3cd5d25c94a289fd926f818478ae55a06ccbeee60413e5a352e6aff4c9ff6ed1912ce3eb588b887151957dddb9927ec424015245f337f32b5c0cfcfd2db)：使用Spring Boot 上传文件示例   
+- [spring-boot-fastDFS](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d5303d3cd5d25c94a289fd926f818478ae55a06ccbeee60413e5a352e6aff4c9fd43f509047153914ae771ca9692879d93ed850d2f02758dda09d82d029981d58)：Spring Boot 整合FastDFS示例  
+- [spring-boot-actuator](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d5303d3cd5d25c94a289fd926f818478ae55a06ccbeee60413e5a352e6aff4c9f83009bdea4fa4c77b70e8ff5df5356439fc4a45a15f1ea14eae086c8c06a92e8)：Spring Boot Actuator 使用示例
+- [spring-boot-admin-simple](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d5303d3cd5d25c94a289fd926f818478ae55a06ccbeee60413e5a352e6aff4c9fee085cbede27160d3c53a8d45aca6e1329a70f4529b6cf279b41924e39bb4807)：Spring Boot Admin 的使用示例  
+
+**[Favorites-web](http://u.720life.cn/g/54145d0471d91890860f7f8463c030460c88901a17348df606d02f71683ac78e8b01c01a57e0bb2eb476ffc342f0941b)：云收藏（Spring Boot 实战开源项目）**
+
+
+**参考文章**
+
+- [springboot(一)：入门篇](http://u.720life.cn/g/a7aa90cf5fe79726b10a2a75b3167657f2304999099dd45dd1e45e85fbd4fe2ead36f06a2eff99be6bd750b2594ed05f10eb84276f241f9ff305da75b4d74c9e887b0e176cf789096e9d6258626c8b69)-%E5%85%A5%E9%97%A8%E7%AF%87.html
+- [springboot(二)：web综合开发](http://u.720life.cn/g/a7aa90cf5fe79726b10a2a75b3167657f2304999099dd45dd1e45e85fbd4fe2e8fd3d0181b26a707fe47daf803342af73c5bb8bcb438d682096cde395c012d366fb5447bfdafa8d4180eb6b1afb0ac64)-web%E7%BB%BC%E5%90%88%E5%BC%80%E5%8F%91.html
+- [springboot(三)：Spring boot中Redis的使用](http://u.720life.cn/g/a7aa90cf5fe79726b10a2a75b3167657f2304999099dd45dd1e45e85fbd4fe2e6fe7333c9c8e9195e29da29b828cf1def23f4d26f0aac6cee8e632cc3878db650254fbedf1c3ba2fb94a13013ad42e18)-Spring-Boot%E4%B8%ADRedis%E7%9A%84%E4%BD%BF%E7%94%A8.html
+- [springboot(四)：thymeleaf使用详解](http://u.720life.cn/g/a7aa90cf5fe79726b10a2a75b3167657f2304999099dd45dd1e45e85fbd4fe2e48894eb8251e9bf63664b70ca22cc8576deadd27c435571409fd3ca2ff47be74fc6cafbfff4332c3b29c777bf529066e)-thymeleaf%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3.html
+- [springboot(五)：spring data jpa的使用](http://u.720life.cn/g/a7aa90cf5fe79726b10a2a75b3167657f2304999099dd45dd1e45e85fbd4fe2ef3c49ade8313186e6c897630044d068d280d13c181ce207c77e653a6db8a874a16357bb47ff16a55debd713e6698e38e)-spring-data-jpa%E7%9A%84%E4%BD%BF%E7%94%A8.html
+- [springboot(六)：如何优雅的使用mybatis](http://u.720life.cn/g/a7aa90cf5fe79726b10a2a75b3167657f2304999099dd45dd1e45e85fbd4fe2e9385af4bbb762b7ab14b4be307eeb8e656623d4e708715d700e6791a7888d0f02284f6c23c03b1979d5220347a3a2daa)-%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8mybatis.html
+- [springboot(七)：springboot+mybatis多数据源最简解决方案](http://u.720life.cn/g/a7aa90cf5fe79726b10a2a75b3167657f2304999099dd45dd1e45e85fbd4fe2e01d8ae0012569c102f8afb375c3dc55c83760ce2cf8239edc86f3c3545af25c5fcf88cbfe45c54474ea6824157be769f)-springboot+mybatis%E5%A4%9A%E6%95%B0%E6%8D%AE%E6%BA%90%E6%9C%80%E7%AE%80%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.html
+- [springboot(八)：RabbitMQ详解](http://u.720life.cn/g/a7aa90cf5fe79726b10a2a75b3167657f2304999099dd45dd1e45e85fbd4fe2e86b9ecaf511d4360ac7286d97271713a925a3c143407a7cb163cffd93493177f4e2feb06670ec41c787d7dff7cb6326e)-RabbitMQ%E8%AF%A6%E8%A7%A3.html
+- [springboot(九)：定时任务](http://u.720life.cn/g/a7aa90cf5fe79726b10a2a75b3167657f2304999099dd45dd1e45e85fbd4fe2ef7c686b631aeed78752e57831261e0a3ce673601afff7bb2dca6712cb72eeb5d5c823033bafe3189bfb9ab036f51722a)-%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1.html
+- [springboot(十)：邮件服务](http://u.720life.cn/g/a7aa90cf5fe79726b10a2a75b3167657f2304999099dd45dd1e45e85fbd4fe2e0843969832130055ba40656d7bc1cd65a8481987b5d0e386a56cb5b286c571b318d6bb6be99970c582f4af6377c57e32)
+- [springboot(十一)：Spring boot中mongodb的使用](http://u.720life.cn/g/a7aa90cf5fe79726b10a2a75b3167657f2304999099dd45dd1e45e85fbd4fe2e7bdf97d49415bf248aa53c1ab24407bdc94b2fe10514bff917e9a1d47fccced17b88deebea7c23c5205804f13af62c82)
+- [springboot(十二)：springboot如何测试打包部署](http://u.720life.cn/g/a7aa90cf5fe79726b10a2a75b3167657f2304999099dd45dd1e45e85fbd4fe2e90076d9c0339b185e8894ba6cc751b201022fbf58b3e5bfb899e25a243190ddcd3c6004290ae141c389af234c9839987)
+- [springboot(十三)：springboot小技巧](http://u.720life.cn/g/a7aa90cf5fe79726b10a2a75b3167657f2304999099dd45dd1e45e85fbd4fe2e42c6516847ee35dc8ff3cc200e849e0e91de62d7cdb870b9888c06348a2b8e4a8616b7d7c54669e4a199059e817a1e7b)
+- [springboot(十四)：springboot整合shiro-登录认证和权限管理](http://u.720life.cn/g/a7aa90cf5fe79726b10a2a75b3167657f2304999099dd45dd1e45e85fbd4fe2ebc56469d1d0d43bb41737f3c4068ada9a22e7f79c69d6964ab7c8769ae93bdac08597441cb64b9bc9317b7d1d27fce61)
+- [springboot(十五)：springboot+jpa+thymeleaf增删改查示例](http://u.720life.cn/g/a7aa90cf5fe79726b10a2a75b3167657f2304999099dd45dd1e45e85fbd4fe2ed85e3af89029642025995ad3aa5640d49dfa4eb05c8327d7be412a6e1cca14bb9b7fe6edf15ba7c198876b02263235cc54f3f42c612bc4c7ef1c980caa9d0db6)  
+- [springboot(十六)：使用Jenkins部署Spring Boot](http://u.720life.cn/g/a7aa90cf5fe79726b10a2a75b3167657f2304999099dd45dd1e45e85fbd4fe2e1d8e3fc5cf4e15779bf9f67d0eb9e0584bda07408de27d5cab652bcf2c6cd588415b4e3d5b208e586dbf00f7edcd7c4f)
+- [springboot(十七)：使用Spring Boot上传文件](http://u.720life.cn/g/a7aa90cf5fe79726b10a2a75b3167657f2304999099dd45dd1e45e85fbd4fe2e410e69d0c21142c54f2bc1acb59e63305d615998775736f895768f731acebdf1c4049529d5de68932690c427ac8b93f5)   
+- [springboot(十八)：使用Spring Boot集成FastDFS](http://u.720life.cn/g/a7aa90cf5fe79726b10a2a75b3167657f2304999099dd45dd1e45e85fbd4fe2ea9976576cc39c80f5933e3e07cae599464e7e99fc7660d29994eb3d0918d8e56b1f46f281a80b14e57705a0f0585c8ea)   
+- [springboot(十九)：使用Spring Boot Actuator监控应用](http://u.720life.cn/g/a7aa90cf5fe79726b10a2a75b3167657f2304999099dd45dd1e45e85fbd4fe2e249d23ad8a2596c5e39fea260bc83f2006322f413d157d2d60c74a16a6df0876f528d2850deb02c9da69420c6040f5d5)   
+- [springboot(二十)：使用spring-boot-admin对spring-boot服务进行监控](http://u.720life.cn/g/a7aa90cf5fe79726b10a2a75b3167657f2304999099dd45dd1e45e85fbd4fe2e084bcebad37f2872f9f8db26f83065d3ba3da89b8dae1d7e2ddafc556808b9ffc8f6f60d5b87b6e854b872a1b9a9c278)   
+
+**[Spring Boot 实战：我们的第一款开源项目](http://u.720life.cn/g/a7aa90cf5fe79726b10a2a75b3167657f2304999099dd45dd1e45e85fbd4fe2e0eab500433cc3d092fc3f0928cfbb22673f44915a0fcde79bcacd4cb6e4f7127f4b96f5d3b2d2eb6287e2a61fee75b49d75ce9e20cb9d2635c87292d9eaa544d61a6acc20cf78638d4211506cac8784dc3b730920d1e3cf06aa244ce63d58130fc3713ec403bce8f3840d175f560dc93f01bef6f4a881b7c76c26555e9f7693600aab0b1c0e3c23faaed92b1e622601d)**
+
+---
+
+> 如果大家想了解关于 Spring Boot 的其它方面应用，也可以以[issues](http://u.720life.cn/g/54145d0471d91890860f7f8463c030463406f1a2bbefd0a78c885018db78529d5303d3cd5d25c94a289fd926f818478a27bdfabb590c871379f819b7397c7e4c)的形式反馈给我，我后续来完善。
+
+关注公众号：纯洁的微笑，回复"springboot"进群交流
+
+![](http://www.ityouknow.com/assets/images/keeppuresmile.jpg)
+
+
+ # 良心友情链接
+
+[腾讯QQ群快速检索](http://u.720life.cn/s/8cf73f7c)
+
+[软件免费开发论坛](http://u.720life.cn/s/bbb01dc0)
+
+# 版权声明 
+
+本文由良心工作室整理 欢迎加入[官方交流Q群](https://u.720life.cn/s/f2316816)谈合作
+
+[本文转自如下链接](http://u.720life.cn/g/2e71d0f0a5c601172267ba20d3a43c6ebbb09ea94c265b8eb1a8f427a347deff69ed3428c27c622c828da7bcc4a95d7803a0faf82137108137a6fcb89f204fa42429674ff200327e6db85f287233dcdd)
