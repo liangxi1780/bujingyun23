@@ -1,0 +1,121 @@
+# :beginner: DVA-BOOT-ADMIN :lemon: :tangerine: :cherries: :cake: :grapes: :watermelon: :strawberry: :corn: :peach: :melon:
+
+使用React生态系统的最成熟的技术体系，搭建的一套开箱即用的后台管理系统，框架里包含了一些独有的定制组件，以及许多经过大量实践口碑良好的第三方组件，它不仅仅是一个简单的仪表盘展示界面，更是保证您下一个web项目所必需的所有工具，我们希望使用它的人可以快速、稳定的开发出健壮、美观、易用的web程序。
+
+
+[GitHub主页](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046039e977939325faf364265c7528b2c9bb75632290eb9031f0f3248fcb7ce9623) |
+[码云主页](http://u.720life.cn/g/2e71d0f0a5c601172267ba20d3a43c6ea31f1ab0fa54d7ae62f132c499d76acffc04d8cbf1c8b68bba53c9f09783aa73)
+
+![](https://ucarecdn.com/b296e689-19fd-46f5-863e-40c0d4ba7a61/1.jpg)
+
+## Table of Contents
+* [功能](#feature)
+* [目录结构](#structure)
+* [开发](#usage)
+* [文档](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046039e977939325faf364265c7528b2c9bd6bc5501f9d10cc3d6f489c342992bbdccc53601365ca21a29340fa729eeaa1995efdb49381133509b8e5adba3643b30)
+  - [如何开始](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046039e977939325faf364265c7528b2c9bd6bc5501f9d10cc3d6f489c342992bbd095cb285559c371596ae987583185d838ca1ccc909f6a6a492e582d5166ae7b4)
+  - [全局配置](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046039e977939325faf364265c7528b2c9bd6bc5501f9d10cc3d6f489c342992bbd4f859622ec0ae0cc7bf613327ba33ca7faf3dce2baf47d07c36ecdb52fe12a99)
+  - [modelEnhance用法](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046039e977939325faf364265c7528b2c9bd6bc5501f9d10cc3d6f489c342992bbd59f00c41a19d4988b73761ba95ab42f215d9c9c2d81036bd6a4028b0e9ea87d2)
+  - [pageHelper用法](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046039e977939325faf364265c7528b2c9bd6bc5501f9d10cc3d6f489c342992bbdb0a872f2b53c8bc14968b3892c013ca8ac7d3d8545b8dbf69faaad3afb38cc82)
+  - [组件](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046039e977939325faf364265c7528b2c9bd6bc5501f9d10cc3d6f489c342992bbdc6b417e029ae6fc8a3256ba20705e811e661c5a4175e211a6636c41d370b2797)
+  - [接口数据模拟](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046039e977939325faf364265c7528b2c9bd6bc5501f9d10cc3d6f489c342992bbdd0ea2ae22382e04897d6becf042da3bb43d328389c9d7becc7f9e5fb67b08bb0)
+  - [FAQs](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046039e977939325faf364265c7528b2c9bd6bc5501f9d10cc3d6f489c342992bbdf6725eecc984091960865bbd6eb19a1deb7c96c0c230e121d0b62ed0c28f71e5)
+* [截图](#gallery)
+* [更新日志](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046039e977939325faf364265c7528b2c9bd6bc5501f9d10cc3d6f489c342992bbd44b547417704b53ba46056e988a815fd01deaf34908ca4246b0a459e860f3aec)
+* [结尾](#end)
+
+## Feature
+- 封装了dva框架的数据流转，简单的请求可以不用在model和service中定义
+- 封装了数据模模拟，可以独立于后台开发前台功能
+- 封装了分页请求，简化并规范了分页逻辑
+- 封装了fetch请求，适应与后台多种交互请求, body参数 parameter参数 path参数，动态请求头，请求前后拦截
+- 扩展了antd写了许多实用的UI，通过一个配置生成即可生成，后台CRUD三件套
+- 按业务模块划分的目录结构，尽量做到最小耦合
+- 一些常用的小部件用法
+- 许多精心设计的页面及交互场景
+- [dva-boot](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046039e977939325faf364265c7528b2c9b8ed2d64c918f60847d7444fe15817643)脚手架封装的功能
+- 全局异常处理，全局请求拦截，公共配置提取
+
+## Structure
+```
+.
+├── public                   # 不参与编译的资源文件
+├── src                      # 主程序目录
+│   ├── index.js             # 程序启动和渲染入口文件
+│   ├── config.js            # 全局配置
+│   ├── components           # 全局公共组件
+│   ├── layouts              # 页面结构组件
+│   │   ├── BasicLayout      # 基本布局
+│   │   └── OtherLayout      # 布局组件根据具体功能调整，在路由配置中引用
+│   ├── routes               # 动态路由目录（每个功能一个文件夹的MVC结构）
+│   │   ├── index.js         # 路由配置文件
+│   │   ├── Home             # 功能模块
+│   │   │   ├── index.js     # 路由配置文件
+│   │   │   ├── assets       # 单独属于这个模块的静态资源文件
+│   │   │   ├── components   # 页面组件
+│   │   │   ├── model        # dva model
+│   │   │   ├── service      # dva service
+│   │   │   └── routes **    # 子路由(目录结构与父级相同)
+│   │   └── Login            # 功能模块
+│   │       ├── index.js     # 路由配置文件
+│   │       ├── assets       # 单独属于这个模块的静态资源文件
+│   │       ├── components   # 页面组件
+│   │       ├── model        # dva model
+│   │       ├── service      # dva service
+│   │       └── routes **    # 子路由(目录结构与父级相同)
+│   ├── utils                # 工具类
+│   └── assets               # 资源文件
+│           ├── fonts        # 字体 & 字体图标
+│           ├── images       # 图片
+│           └── styles       # 全局样式
+```
+
+## Usage
+
+``` javascript
+$ git clone https://github.com/LANIF-UI/dva-boot-admin.git
+$ cd dva-boot-admin
+// 使用yarn
+$ yarn
+$ yarn start
+// 使用npm
+$ npm install
+$ npm start
+```
+
+## End
+
+欢迎大家提问题，感谢大家的PR，如果觉得不错，还请帮忙加个:star:哦
+
+企鹅群 820881369 :penguin:
+
+# Gallery
+
+![](https://ucarecdn.com/7602439b-fa79-4a57-a2f1-c4448710c1c2/14.jpg)
+![](https://ucarecdn.com/fcfdbd3f-3d43-4a1e-a090-10038f92e1a6/13.jpg)
+![](https://ucarecdn.com/6f9862ab-d9e6-4bda-9c6f-9b6a608ccc2a/12.jpg)
+![](https://ucarecdn.com/fd93aad7-7963-4cbb-9ffd-4a09c44ee0a0/11.jpg)
+![](https://ucarecdn.com/5440ec1c-f524-46ab-826b-742f20476ddf/15.jpg)
+![](https://ucarecdn.com/2f35d9c3-d5e8-4519-bfbc-a0ee310e6817/2.jpg)
+![](https://ucarecdn.com/eaef12d9-c878-4311-a539-cf53fd461280/3.jpg)
+![](https://ucarecdn.com/e44e4383-d49c-46a6-a708-dbc5078d33f4/4.jpg)
+![](https://ucarecdn.com/bef74a5c-fc05-4dcb-8512-7429971110c1/6.jpg)
+![](https://ucarecdn.com/55cdf8da-37e0-4f19-b24f-00f00eddf5e1/5.jpg)
+![](https://ucarecdn.com/890cae0d-dcde-48b4-9434-19e5fee2c883/9.jpg)
+![](https://ucarecdn.com/54014eec-406b-437f-9356-f466a1a868ab/7.jpg)
+![](https://ucarecdn.com/4e8c9b75-11df-4108-8437-bdb2627e3ebc/8.jpg)
+![](https://ucarecdn.com/7831ce59-f412-4109-a75c-2b9f86b78c43/10.jpg)
+
+
+
+ # 良心友情链接
+
+[腾讯QQ群快速检索](http://u.720life.cn/s/8cf73f7c)
+
+[软件免费开发论坛](http://u.720life.cn/s/bbb01dc0)
+
+# 版权声明 
+
+本文由良心工作室整理 欢迎加入[官方交流Q群](https://u.720life.cn/s/f2316816)谈合作
+
+[本文转自如下链接](http://u.720life.cn/g/2e71d0f0a5c601172267ba20d3a43c6eb1e27e8468713bf18880e511c768885731a43393cc6f826a7840f80baee78463628d42cad637be1a873a0c9fab054174)
