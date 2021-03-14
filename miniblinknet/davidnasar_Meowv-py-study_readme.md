@@ -1,0 +1,71 @@
+# Python Study
+
+本仓库记录了我学习 Python 编程语言的代码记录、爬虫项目等等。
+
+环境：Python3 + Windows 10 + Visual Studio Code
+
+## 笔记总结
+
+- [如何入门 Python 编程](http://u.720life.cn/g/42c63f644ffd2f380ddab482d047800ecc8e1a87b9979ad4241158bd5fe88714bbb6caa1bffe317200e2cfb7eb5e091a2f048bdcc64d2afcba125ee853e9a4e94b6921d4ddd8289a55ae74550ac9331b)
+- [HTTP 协议](http://u.720life.cn/g/42c63f644ffd2f380ddab482d047800e26203682bfee29c49fd1d3578dbd8ddbbd50b9318caef2e9ac5ebe8fe2d63193)
+- [urllib 库](http://u.720life.cn/g/42c63f644ffd2f380ddab482d047800e26203682bfee29c49fd1d3578dbd8ddb09ac9ee7ae95294524510df28c25b541)
+- [requests 库](http://u.720life.cn/g/42c63f644ffd2f380ddab482d047800e26203682bfee29c49fd1d3578dbd8ddb377e30b44c8c92a01e69c3acce5882cf)
+- [XPath 语法](http://u.720life.cn/g/42c63f644ffd2f380ddab482d047800e26203682bfee29c49fd1d3578dbd8ddb2a054dbee4893e62b1780f52d8f395d5)
+- [lxml 库](http://u.720life.cn/g/42c63f644ffd2f380ddab482d047800e26203682bfee29c49fd1d3578dbd8ddb737d83234aae70902a13e131802b83e8)
+- [BeautifulSoup 库](http://u.720life.cn/g/42c63f644ffd2f380ddab482d047800e26203682bfee29c49fd1d3578dbd8ddb6d2162ca04b0020e0d3b52b151960c34)
+- [Python 中的正则表达式](http://u.720life.cn/g/42c63f644ffd2f380ddab482d047800e26203682bfee29c49fd1d3578dbd8ddb7e4114d977f574e00b2f8869bc74c69e)
+- [re 模块](http://u.720life.cn/g/42c63f644ffd2f380ddab482d047800e26203682bfee29c49fd1d3578dbd8ddb4c946dedad5bdb9741fad9f911d6d041)
+- [json 文件处理](http://u.720life.cn/g/42c63f644ffd2f380ddab482d047800e26203682bfee29c49fd1d3578dbd8ddbeede87a8e71c336faa77583705a8be91)
+- [csv 文件处理](http://u.720life.cn/g/42c63f644ffd2f380ddab482d047800e91a5575cd9ee02099701c3ee50a239e365ce4d7dec6ea787210909272d8514d9)
+- [Python 操作 MySQL 数据库](http://u.720life.cn/g/42c63f644ffd2f380ddab482d047800e91a5575cd9ee02099701c3ee50a239e3725ccb50df5506b1a5c6eb3bb26f5e46)
+- [Python 操作 MongoDB 数据库](http://u.720life.cn/g/42c63f644ffd2f380ddab482d047800e91a5575cd9ee02099701c3ee50a239e377abc932fd11b1a256d90d7450b63224)
+- [多线程爬虫](http://u.720life.cn/g/42c63f644ffd2f380ddab482d047800e91a5575cd9ee02099701c3ee50a239e30ab864a82f1f6b308f32951ee6145a74b5967aa4a976f93b00f311907cba45f7)
+- [动态网页爬虫](http://u.720life.cn/g/42c63f644ffd2f380ddab482d047800e91a5575cd9ee02099701c3ee50a239e3c699745d35276c5db5fc672b5bf20df6)
+- [图形验证码识别](http://u.720life.cn/g/42c63f644ffd2f380ddab482d047800e91a5575cd9ee02099701c3ee50a239e3bfdde1ef0473531a27ef3ec3559d7298)
+- [Scrapy 框架](http://u.720life.cn/g/42c63f644ffd2f380ddab482d047800e91a5575cd9ee02099701c3ee50a239e317fc3d6a887da27a0e8188551109fff3)
+- [Scrapy-Redis 分布式爬虫](http://u.720life.cn/g/42c63f644ffd2f380ddab482d047800e91a5575cd9ee02099701c3ee50a239e3314091bebe62b2a6eb9ef4c011f3f30e)
+
+## 爬虫项目
+
+- [wallpaper](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046d5cf5ec6d50f9bbbb4c02c26b5afd9ded16fdf71e69b157d794a9fe1b285db14fb61d483f57856de3c38371c95f87ffc) 手机壁纸数据抓取，https://meowv.com/wallpaper
+- [hotnews](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046d5cf5ec6d50f9bbbb4c02c26b5afd9ded16fdf71e69b157d794a9fe1b285db14a25734039bf2b98b83736793853b9f36) 每日热点数据抓取，https://meowv.com/hot
+- [mzitu_spider](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046d5cf5ec6d50f9bbbb4c02c26b5afd9ded16fdf71e69b157d794a9fe1b285db146013a7d261681bcbefae35a5c7bedee36d76b64fc7ade54a766285c6e59b5cff) 妹子图推荐版块爬虫，满足你的所有幻想
+- [hotnews](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046d5cf5ec6d50f9bbbb4c02c26b5afd9de4925eaab2b57c8d41d00056175ffa2b39ce54c94b03bf5770f47eb8f9a923408) 每日热点，获取各大热门网站热门头条的爬虫程序
+- [12306_spider](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046d5cf5ec6d50f9bbbb4c02c26b5afd9ded16fdf71e69b157d794a9fe1b285db141340080e52cab0d1a26b2198a8ebd7463d40bead4738b2be802317f367648d76) 使用 selenium + Chromedriver 实现 12306 抢票
+- [autohome_spider](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046d5cf5ec6d50f9bbbb4c02c26b5afd9ded16fdf71e69b157d794a9fe1b285db14a7bfce35e9d95563d8b6e9eb502d8921d80471c1e237af0fe98c7e3831275791) 汽车之家图片下载爬虫
+- [budejie_spider](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046d5cf5ec6d50f9bbbb4c02c26b5afd9ded16fdf71e69b157d794a9fe1b285db14d5430d6fd6b5785a7ec65fdec3b181d88bb92ccd8ae5635c39dca2198f96c076) 多线程下载百思不得姐段子
+- [cnblogs_spider](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046d5cf5ec6d50f9bbbb4c02c26b5afd9ded16fdf71e69b157d794a9fe1b285db144ee3c94d9b607539883138918088a235050cf6ad0501818e0af3ee3ce8892fcc) 博客园文章爬取
+- [douban_login_spider](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046d5cf5ec6d50f9bbbb4c02c26b5afd9ded16fdf71e69b157d794a9fe1b285db14a7ed2df20135a534191604b16179e0d93d027b3a47ccaf39393ca645d647dc0c) scrapy 登录豆瓣并修改签名
+- [douban_spider](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046d5cf5ec6d50f9bbbb4c02c26b5afd9ded16fdf71e69b157d794a9fe1b285db1423d323a48e53492cef16563a94ea45b9b6588e2692eefeba37f38b72cb137f63) 豆瓣正在上映电影数据抓取
+- [doutula_spider](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046d5cf5ec6d50f9bbbb4c02c26b5afd9ded16fdf71e69b157d794a9fe1b285db1423d323a48e53492cef16563a94ea45b9b6588e2692eefeba37f38b72cb137f63) 斗图啦表情包之同步/异步抓取
+- [dytt_spider](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046d5cf5ec6d50f9bbbb4c02c26b5afd9ded16fdf71e69b157d794a9fe1b285db14bae4ab7c1b7d5bf28fe5d59f5e7ebd2e) 电影天堂最新电影数据爬取
+- [fang](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046d5cf5ec6d50f9bbbb4c02c26b5afd9ded16fdf71e69b157d794a9fe1b285db1493f53cd7527a8983fb6418676b7778a4) 房天下分布式爬虫，保存至 redis
+- [fang_spider](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046d5cf5ec6d50f9bbbb4c02c26b5afd9ded16fdf71e69b157d794a9fe1b285db146b82aef157cbf5eb2c05f4791ab59740) 房天下房源爬取保存至 json
+- [gushiwen_spider](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046d5cf5ec6d50f9bbbb4c02c26b5afd9ded16fdf71e69b157d794a9fe1b285db140f4ad10d3723ca074d5f33730e8e48b33f1d99480fc306cebbf8405945fd62e3) 利用正则爬取古诗文网数据
+- [jd_comment_spider](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046d5cf5ec6d50f9bbbb4c02c26b5afd9ded16fdf71e69b157d794a9fe1b285db14f4978ab2d9bce4ec7ae15f907f694625e798e3d016016c8942b4793affa43e39) 爬取某东 XXOO 评价数据并生成云词
+- [jianshu_spider](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046d5cf5ec6d50f9bbbb4c02c26b5afd9ded16fdf71e69b157d794a9fe1b285db14851e3f6cec7b00c78e7cd00808814b85fe7cc3121b77c3fb5c323f4ebce8515f) scrapy + selenium 简书数据爬取
+- [lagou_spider](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046d5cf5ec6d50f9bbbb4c02c26b5afd9ded16fdf71e69b157d794a9fe1b285db147245447a12ac82a0fbde5ccb7ab3faf1fe0ee3ce7a386c0bac2ef315ea484e92) 基于 selenium 完美实现拉勾网招聘信息数据爬取
+- [qiushibaike_spider](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046d5cf5ec6d50f9bbbb4c02c26b5afd9ded16fdf71e69b157d794a9fe1b285db143d07c568b5a32c11e7db1bf53c3a9aa8ad390eeb99b2f214ad9ca949cc5c4754) 糗事百科之抓取多个页面完成
+- [renren_login_spider](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046d5cf5ec6d50f9bbbb4c02c26b5afd9ded16fdf71e69b157d794a9fe1b285db142d61824177b5bb49f7e0085d742459cff01ef4bb9bd78b1831ed23d757f76cde) scrapy 模拟登录人人网
+- [weather_spider](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046d5cf5ec6d50f9bbbb4c02c26b5afd9ded16fdf71e69b157d794a9fe1b285db14094f3d23df8216d21029d8af0b1ef78b2ecb68726defbae0fae33a684033ff11) 数据抓取之中国天气最低气温排行榜可视化
+- [weibo_spider](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046d5cf5ec6d50f9bbbb4c02c26b5afd9ded16fdf71e69b157d794a9fe1b285db145c7cd6ca13f89ad70ff6f25b6323a858743e287c624e9b087a4e596c76f33f89) 爬取微博评论和图片，生成图片墙和评论词云
+- [wxapp_spider](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046d5cf5ec6d50f9bbbb4c02c26b5afd9ded16fdf71e69b157d794a9fe1b285db14f2f08dd70177803cbf1fc6361a2614f02e4f690027212fc4b19d0c248342e9e3) CrawlSpider 爬取微信小程序社区文章
+- [zhipin_spider](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046d5cf5ec6d50f9bbbb4c02c26b5afd9ded16fdf71e69b157d794a9fe1b285db14ba8b60a0ade6675c549c102706e9f00d2027e226f2efe0590891c196090ee424) scrapy 中间件 随机请求头、随机 ip 代理 爬取 boss 直聘招聘数据
+
+## 有趣的第三方库
+
+- [remove-bg](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046d5cf5ec6d50f9bbbb4c02c26b5afd9de4925eaab2b57c8d41d00056175ffa2b3f6d9b3aee87ed2958d66c68637d9906b) 代码抠图神器，removebg
+
+
+
+ # 良心友情链接
+
+[腾讯QQ群快速检索](http://u.720life.cn/s/8cf73f7c)
+
+[软件免费开发论坛](http://u.720life.cn/s/bbb01dc0)
+
+# 版权声明 
+
+本文由良心工作室整理 欢迎加入[官方交流Q群](https://u.720life.cn/s/f2316816)谈合作
+
+[本文转自如下链接](http://u.720life.cn/g/2e71d0f0a5c601172267ba20d3a43c6e2c9dc37d40dd95841f138530c859d584b53e48b4d247f7e53d183d32fdc3b6abb84c57c0cd06a8952bffcfdb5ce75f5de723424469578ea6cc93ac3e63c80f9b)
